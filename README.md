@@ -46,7 +46,8 @@ docker build -t name .
 docker run -p 8501:8501 name 
 ```
 
-🧮 What the app does
-Inputs: underlying price, strike, risk-free rate, volatility, time to expiry
-Outputs: European call/put price 
-UI: Streamlit sliders + dynamic charts
+## 🧮 What the app does
+
+- **Inputs:** underlying price, strike, risk-free rate, volatility, time to expiry  
+- **Outputs:** European call/put price (and optional greeks)  
+- **UI:** Streamlit sliders + dynamic charts
